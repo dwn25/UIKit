@@ -1,12 +1,12 @@
 //
 //  ViewController.swift
-//  UIKit
+//  UIClass
 //
 //  Created by David William Nartey on 6/18/18.
 //  Copyright © 2018 KanDid Consultancy. All rights reserved.
 //
 
-import UIKitClass
+import UIKit
 
 class ViewController: UIViewController {
 
