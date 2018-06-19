@@ -21,6 +21,22 @@ class ViewController: UIViewController {
         present(nextController, animated: true, completion: nil)
     }
 
-
+    @IBAction func alertBox(){
+        let newC = UIAlertController()
+        newC.title = "Test Alert"
+        newC.message = "Sample"
+        
+        let okAction = UIAlertAction(title: "ok", style: UIAlertActionStyle.default){ action in self.dismiss(animated: true, completion: nil)}
+        newC.addAction(okAction)
+        present(newC, animated: true, completion: nil)
+    }
+   /*
+    @IBAction func advancedImages(){
+     //Get image display and animate
+     let image = UIImage()
+     let controller = UIActivityViewController(activityItems: [image], applicationActivities: nil)
+    self.present(controller, animated: true, completion: nil)
+        
+    }*/
 }
 
